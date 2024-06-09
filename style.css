@@ -143,8 +143,7 @@ input[type="checkbox"]{
 @media  (width <= 1100px) {
     .overview  {
         height: 280px;
-        
-        
+              
     }
 }
 @media  (width <= 920px) {
@@ -161,7 +160,19 @@ input[type="checkbox"]{
 }
 @media  (width <= 640px) {
     .overview  {
+        height: 370px;
+        
+    }
+}
+@media  (width <= 460px) {
+    .overview  {
         height: 320px;
+        
+    }
+}
+@media  (width <= 360px) {
+    .overview  {
+        height: 280px;
         
     }
 }
@@ -191,6 +202,18 @@ input[type="checkbox"]{
         padding: 20px 80px 10px 80px;
     }
 }
+@media  (width <= 460px) {
+    .overview h2  {
+        font-size: 20px;
+        padding: 20px 40px 10px 40px;
+    }
+}
+@media  (width <= 360px) {
+    .overview h2  {
+        font-size: 20px;
+        padding: 20px 40px 10px 40px;
+    }
+}
 
 /*   About Start  */
 .about{
@@ -217,10 +240,26 @@ input[type="checkbox"]{
             text-align: center;
             font-size: 60px;
         }
+        @media  (width <= 460px) {
+            .about h1 {
+                padding: 0px 0px 40px;
+                text-align: center;
+                font-size: 60px;
+             }
+        }
+        
+        @media  (width <= 360px) {
+            .about h1 {
+                padding: 0px 0px 40px;
+                text-align: center;
+                font-size: 50px;
+             }
+        }
  
     .about-text{
     width: 550px;
     display: flex;
+    
     flex-direction: column;
     flex-wrap: wrap;
     }
@@ -274,7 +313,29 @@ input[type="checkbox"]{
            
         }
     }
+    @media  (width <= 460px) {
+        .about {
+            height: 1190px;
+            padding-top: 20px;
+           
+        }
+    }
+    @media  (width <= 360px) {
+        .about {
+            height: 1210px;
+            padding-top: 20px;
+           
+        }
+    }
     @media  (width <= 768px) {
+        .main .about-text {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+           
+        }
+    }
+    @media  (width <= 460px) {
         .main .about-text {
             width: 100%;
             justify-content: center;
@@ -306,6 +367,18 @@ input[type="checkbox"]{
             width: 350px;
         }
     }
+    @media  (width <= 460px) {
+        .main .imghover img  {
+            height: 350px;
+            width: 350px;
+        }
+    }
+    @media  (width <= 360px) {
+        .main .imghover img  {
+            height: 280px;
+            width: 280px;
+        }
+    }
 
 
 
@@ -330,6 +403,16 @@ input[type="checkbox"]{
             font-size: 40px;
         }
     }
+    @media  (width <= 460px) {
+        .main .about-text h2 {
+            font-size: 33px;
+        }
+    }
+    @media  (width <= 360px) {
+        .main .about-text h2 {
+            font-size: 27px;
+        }
+    }
 
 
 
@@ -351,6 +434,18 @@ input[type="checkbox"]{
     @media  (width <= 640px) {
         .main .about-text h5 {
             font-size: 18px;
+        }
+    }
+    @media  (width <= 460px) {
+        .main .about-text h5 {
+            padding: 0px 30px;
+            font-size: 15px;
+        }
+    }
+    @media  (width <= 360px) {
+        .main .about-text h5 {
+            font-size: 15px;
+            padding: 0px 10px;
         }
     }
 
@@ -384,6 +479,22 @@ input[type="checkbox"]{
         .main .about-text p {
             font-size: 25px;
             line-height: 35px;
+            padding: 0px 40px;
+            text-align: center;
+        }
+    }
+    @media  (width <= 460px) {
+        .main .about-text p {
+            font-size: 22px;
+            line-height: 30px;
+            padding: 0px 40px;
+            text-align: center;
+        }
+    }
+    @media  (width <= 360px) {
+        .main .about-text p {
+            font-size: 20px;
+            line-height: 30px;
             padding: 0px 40px;
             text-align: center;
         }
@@ -819,10 +930,33 @@ span.num {
 .box input[type="radio"]:checked+label+.content {
 	display: block;
 }
-@media (max-width: 600px) {
+
+
+
+
+@media (max-width: 540px) {
 	
 	.box label {
-		margin-right: 10;
+		width: 40%;
+	padding: 16px 10px;
+	}
+}
+@media (max-width: 340px) {
+	
+	.box label {
+		width: 45%;
+	padding: 16px 10px;
+	}
+}
+
+
+
+
+
+@media (max-width: 460px) {
+	
+	.portfolio .wrapper .box label {
+		margin-right: 10px;
 		margin-top: 4px;
 	}
 }
@@ -860,6 +994,20 @@ span.num {
    
     .portfolio {
         height: 2550px;
+        justify-content: center;
+    }
+}
+@media  (width <= 380px) {
+   
+    .portfolio {
+        height: 1950px;
+        justify-content: center;
+    }
+}
+@media  (width <= 330px) {
+   
+    .portfolio {
+        height: 1950px;
         justify-content: center;
     }
 }
@@ -910,6 +1058,30 @@ padding: 10px 0px;
 width: 450;
 }
 }
+@media  (width <= 500px) {
+
+    .tabsS1 img {
+        height: 200px;
+       padding: 10px 0px;
+    width: 450;
+    }
+    }
+    @media  (width <= 380px) {
+
+        .tabsS1 img {
+            height: 180px;
+           padding: 10px 0px;
+        width: 450;
+        }
+        }
+        @media  (width <= 330px) {
+
+            .tabsS1 img {
+                height: 160px;
+               padding: 10px 0px;
+            width: 450;
+            }
+            }
 @media  (width <= 780px) {
 
 .tabsS1 {
@@ -976,6 +1148,14 @@ width: 450;
     width: 450;
     }
     }
+    @media  (width <= 380px) {
+
+        .tabsS2 img {
+            height: 250px;
+        padding: 10px 0px;
+        width: 450;
+        }
+        }
 @media  (width <= 780px) {
 
 .tabsS2 {
@@ -984,7 +1164,7 @@ width: 450;
     align-items: center;
 }
 }
-/*  tabs 3 */
+/*  tabs 3 
 .tabsS1 {
     display: flex;
     width: 100%;
@@ -1037,7 +1217,7 @@ width: 450;
     justify-content: center;
     align-items: center;
 }
-}
+} */
 .content .tabsS2 #exbox img {
    display: contents;
 }
@@ -1111,6 +1291,17 @@ h3{
     padding: 7px;
     color: white;
 }
+@media  (width <= 650px) {
+
+    .footer-content p{
+        width:80%;
+        padding: 7px;
+        color: white;
+        justify-content: center;
+        display: flex;
+    }
+}
+
 .footer-content ul{
     text-align: center;
 }
@@ -1174,4 +1365,13 @@ a:hover{
     padding: 7px;
 }
 
-  
+@media  (width <= 380px) {
+
+    .bottom-bar p{
+        color: black;
+        font-weight: 600;
+        margin: 0;
+        font-size: 13px;
+        padding: 10px;
+    }
+}
